@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CUSTOMER" directorySegmentName="seg_0" id="C2B847FB-B306-152B-14E6-58A672324320">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="name" id="20CA53E5-1401-7548-ED48-C513DC49CFB9">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="point" id="48ACA500-90BA-3E2B-A81B-39913943D0D9">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gender" id="8C188B34-454C-FD0A-A4BD-5172548DAA1D">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no" id="8C36AB8A-3FB8-0BCD-B8C4-2FA485951EFD">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="birth" id="B934FEA8-4116-38FF-6ABA-FD268923CF96">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="code" id="D2249862-133D-0A0F-DEC3-02105C77F1D4">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="F488EE01-F6EC-67D9-5346-F15C05F40A1D">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_CODE_PK" id="8EC05FFE-3924-F291-F70F-44F4B2542EA8">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CUSTOMER_EMAIL_UK" id="2D4E5C31-48FA-38FC-225E-ABDE949FB54E">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:42:57 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

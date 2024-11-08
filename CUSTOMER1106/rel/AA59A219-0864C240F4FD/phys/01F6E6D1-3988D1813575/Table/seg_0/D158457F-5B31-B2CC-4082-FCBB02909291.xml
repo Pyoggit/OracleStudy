@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REGIONS" directorySegmentName="seg_0" id="D158457F-5B31-B2CC-4082-FCBB02909291">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:43:37 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+<schemaObject>767024E1-086F-6EE7-E1DF-41305030B3E5</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>40018398-CA7C-2A1A-349E-6B3F488C0369</segment>
+<tableSpace>5AC8F37E-EEA5-1ED4-1C95-B5DEB88DB635</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_ID" id="0ABD517B-AB11-20FD-02FA-75855918B3EE">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:43:37 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_NAME" id="7FA004EC-970F-2F56-12D0-415E133794B6">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:43:37 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="E19F2C14-18DF-1C9D-DB96-019FCF51AA7F">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:43:37 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+<schemaObject>767024E1-086F-6EE7-E1DF-41305030B3E5</schemaObject>
+<segment>ABB90ECD-17B1-0909-70A4-7BD5ACEF2F8E</segment>
+<tableSpace>5AC8F37E-EEA5-1ED4-1C95-B5DEB88DB635</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="4DCF6E7F-3000-AE43-CA70-08D12106405F">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-06 06:43:37 UTC</createdTime>
+<ownerDesignName>CUSTOMER1106</ownerDesignName>
+<segment>ABB90ECD-17B1-0909-70A4-7BD5ACEF2F8E</segment>
+<tableSpace>5AC8F37E-EEA5-1ED4-1C95-B5DEB88DB635</tableSpace>
+<existingIndex>E19F2C14-18DF-1C9D-DB96-019FCF51AA7F</existingIndex>
+<indexSegment>ABB90ECD-17B1-0909-70A4-7BD5ACEF2F8E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
