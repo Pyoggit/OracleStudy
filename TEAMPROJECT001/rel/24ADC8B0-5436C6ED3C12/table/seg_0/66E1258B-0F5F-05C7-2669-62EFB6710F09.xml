@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66E1258B-0F5F-05C7-2669-62EFB6710F09" schemaObject="9980A19F-4760-F42F-2AC6-00EF26E7BF64" name="PRODUCT">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjSchema>TEAMPROJECT01</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:37:13 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT001</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="F2771D11-E45C-601B-3750-03F28CBE450C">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:37:13 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="F571EEE3-BC47-4737-F8EF-E11C7A1F4FFF">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:37:13 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="B25F4642-506D-756B-54B0-878DBC3DC402">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:37:13 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REMAIN" id="DD4AD0A3-3D24-A3F5-17A2-503D7244DE2B">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>REMAIN</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:37:13 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT001</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE46EDE0-960E-3C1A-35C5-1AC7E173778E" name="PRODUCT_CODE_PK">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjSchema>TEAMPROJECT01</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:37:15 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT001</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2771D11-E45C-601B-3750-03F28CBE450C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B6FF36C-D568-197B-E5B9-9335BD79F9E9" name="PRODUCT_NAME_UK">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjSchema>TEAMPROJECT01</sourceObjSchema>
+<sourceObjName>PRODUCT_NAME_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:37:15 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT001</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F571EEE3-BC47-4737-F8EF-E11C7A1F4FFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C8CD94B-7D67-66DE-7CFA-28D07B757763" schemaObject="9980A19F-4760-F42F-2AC6-00EF26E7BF64" name="PRODUCT_CODE_PK">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjSchema>TEAMPROJECT01</sourceObjSchema>
+<sourceObjName>PRODUCT_CODE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:37:13 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT001</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2771D11-E45C-601B-3750-03F28CBE450C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E410D15A-50D6-B6CE-EEE4-C6147E9438CD" schemaObject="9980A19F-4760-F42F-2AC6-00EF26E7BF64" name="PRODUCT_NAME_UK">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjSchema>TEAMPROJECT01</sourceObjSchema>
+<sourceObjName>PRODUCT_NAME_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:37:13 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT001</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F571EEE3-BC47-4737-F8EF-E11C7A1F4FFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

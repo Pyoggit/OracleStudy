@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="SUBJECT01" directorySegmentName="seg_0" id="0E2BB507-A57F-546E-0F8E-83D10F46CF14">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="subnum" id="3E394ED6-62F8-4EAC-05CF-AFEAD5A6C65F">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no" id="61F9F83C-92A3-4EA2-428D-2C6D7575DC47">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="F3112FCC-1CDF-0173-C0DD-991877DF1E91">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUBJECT01_PK" id="69CACD08-692F-8942-3102-D9E62CF12252">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

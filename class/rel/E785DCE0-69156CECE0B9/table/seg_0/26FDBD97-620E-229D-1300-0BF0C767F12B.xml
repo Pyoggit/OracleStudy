@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26FDBD97-620E-229D-1300-0BF0C767F12B" schemaObject="E2F4AADF-A732-326E-9C83-85F89E373FBF" name="LESSON">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>LESSON</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:41 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>8822C8F5-3FCA-FF23-13C8-31D827D9CC90</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="CBAB00AB-B8DD-BB48-5210-BAFFBB8FC72F">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>LESSON</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>8BE8AFA1-EE24-621D-50E6-5064A60F5573</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LNUM" id="3AAF4BF8-62AD-CAC3-97A1-BF8EFA23F328">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>LESSON</sourceObjSchema>
+<sourceObjName>LNUM</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>757B594D-9281-7145-EDE3-0DEF699A13EB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="A00E77FF-803E-5A86-FCF5-2544C24F6647">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>LESSON</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>BDACAA1E-78FD-A13D-2EE6-7A4CC0864FD1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44FBE136-FAD3-705E-00EF-E82B01C27A0B" name="LESSON_LNUM_PK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>LESSON_LNUM_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>A28FAAE5-9D4B-459F-3C55-1D575228862E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AAF4BF8-62AD-CAC3-97A1-BF8EFA23F328"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08956DAC-EB35-2D7C-F580-DD4FFA83A822" schemaObject="E2F4AADF-A732-326E-9C83-85F89E373FBF" name="LESSON_LNUM_PK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>LESSON_LNUM_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>C701F74F-5D53-B396-B956-B43E9218AE3B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AAF4BF8-62AD-CAC3-97A1-BF8EFA23F328"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

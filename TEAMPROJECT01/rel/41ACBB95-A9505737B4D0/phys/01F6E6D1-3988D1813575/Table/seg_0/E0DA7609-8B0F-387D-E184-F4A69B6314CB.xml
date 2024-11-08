@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BUY" directorySegmentName="seg_0" id="E0DA7609-8B0F-387D-E184-F4A69B6314CB">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:39 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+<schemaObject>A01CD727-A09C-E2C1-1FA2-798456870843</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8CA7D19E-B81C-7EBA-AB8E-C09B8A2336C8</segment>
+<tableSpace>139B1774-DFCF-79BF-19F3-A3DA645D68AF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRODUCT_CODE" id="208111DE-E5FA-F3E9-3F93-73AD03D53F1C">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:39 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="303FFF7B-B0F6-D407-C871-9B8CAF65EB0C">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:39 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMPANY_CODE" id="314CC316-622F-8193-1872-EEDC373C541E">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:39 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTOMER_CODE" id="C12F0031-3DB2-5C17-1447-3CDF09A4F648">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:39 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="E00BEB64-4DB1-9E7E-A784-29914AEE7071">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:39 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOTAL" id="F7323CFB-7D48-8DA0-6FE0-76A6EC8184C3">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:39 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="BUY_CODE_PK" id="00993C9C-1717-667B-9F7A-DE79D11D8EC6">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:39 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+<schemaObject>A01CD727-A09C-E2C1-1FA2-798456870843</schemaObject>
+<segment>CBA14D9E-E1FC-664F-54F9-CAF6600E725E</segment>
+<tableSpace>139B1774-DFCF-79BF-19F3-A3DA645D68AF</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008545" id="3F9EEA47-58C3-1598-8809-AE4A65FC3B74">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:43 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008544" id="3FF5EF7B-E9BC-5884-F45E-F2E0F14B7CAB">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:43 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUY_PRODUCT_CODE_FK" id="63F2CE83-6E2D-EC6C-6FBA-79B9640157C8">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:43 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUY_CUSTOMER_CODE_FK" id="A0688CD7-127A-9582-D97B-44CFF45C2395">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:43 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUY_COMPANY_CODE_FK" id="ABDCC21E-9DAC-8F69-CCB9-154547DE721D">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:43 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008543" id="FC53A787-F876-46A3-0F44-3C060589417E">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:43 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUY_CODE_PK" id="179DE5AF-9B8C-D71D-73DF-C2C0D3597638">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 08:20:42 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT01</ownerDesignName>
+<segment>CBA14D9E-E1FC-664F-54F9-CAF6600E725E</segment>
+<tableSpace>139B1774-DFCF-79BF-19F3-A3DA645D68AF</tableSpace>
+<existingIndex>00993C9C-1717-667B-9F7A-DE79D11D8EC6</existingIndex>
+<indexSegment>CBA14D9E-E1FC-664F-54F9-CAF6600E725E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

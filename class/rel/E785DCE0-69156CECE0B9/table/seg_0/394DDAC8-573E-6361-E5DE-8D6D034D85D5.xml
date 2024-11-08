@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="394DDAC8-573E-6361-E5DE-8D6D034D85D5" name="TRAINEE01">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:37:24 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no" id="D6D04856-D043-1435-D385-44FF4168FE41">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:38:04 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stunum" id="AC140223-FBCD-5BA2-61E1-5E47D1348004">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:38:27 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB119F70-3EEB-D070-FDE9-93EDBC3E6CB2" referredColumn="87C590C4-4B7F-003A-4E40-17BE5257CA33"/>
+</associations>
+</Column>
+<Column name="lnum" id="C20950D8-6873-5122-6CFD-062B3C675CFD">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:38:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="section" id="44376290-5C64-1ABD-6061-0726D7CF2DFF">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:39:25 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="train_date" id="5E3F120E-A9BB-2370-3E28-3D33E3A47CB7">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:39:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27B39F6E-5E62-6FD6-25B8-0127235BE38F" name="TRAINEE01_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:39:25 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44376290-5C64-1ABD-6061-0726D7CF2DFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA69FF69-4F15-4A31-55AF-BCD9027BD747" name="TRAINEE01_STUDENT01_stunum_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:45:18 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC140223-FBCD-5BA2-61E1-5E47D1348004"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
