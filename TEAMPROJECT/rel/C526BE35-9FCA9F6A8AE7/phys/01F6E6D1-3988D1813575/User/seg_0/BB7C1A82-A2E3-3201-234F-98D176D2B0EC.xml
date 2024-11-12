@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="TEAMPROJECT" directorySegmentName="seg_0" id="BB7C1A82-A2E3-3201-234F-98D176D2B0EC">
+<sourceConnName>로컬-TEAMPROJECT</sourceConnName>
+<sourceObjName>TEAMPROJECT</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 07:57:39 UTC</createdTime>
+<ownerDesignName>TEAMPROJECT</ownerDesignName>
+<schemaObject>B300CF04-15CF-9678-F2BF-7CB0C1BCA62D</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A94ED7FD-1871-CADB-FE34-6929FCCF544A" schemaObject="1FF3C89D-7F25-A807-C7BC-1D559D7F4AE9" name="TRAINEE01">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>TRAINEE01</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:40 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="F42527E8-89F1-39BF-B3EE-8CE32D8324F0">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE01</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:42 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUNUM" id="672E3708-DC13-2553-34A0-D5BBDD54A245">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE01</sourceObjSchema>
+<sourceObjName>STUNUM</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:42 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03CE2A07-7245-DAA7-C567-05E20C936B93" referredColumn="E2C1B9AC-0AB2-3ECF-8F2B-B0A6E1CAC0BA"/>
+</associations>
+</Column>
+<Column name="LNUM" id="96041D90-94A6-B108-ABCA-949ED86E1587">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE01</sourceObjSchema>
+<sourceObjName>LNUM</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:42 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F86076E7-05EA-A9D7-C94B-C2434EAB155D" referredColumn="9205A9AA-4E1E-7785-D485-AE3F2F0F6FFD"/>
+</associations>
+</Column>
+<Column name="SECTION" id="2281688D-2277-3390-BE89-FD1F4E92A7B4">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE01</sourceObjSchema>
+<sourceObjName>SECTION</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:42 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRAIN_DATE" id="30889BDB-9D10-8E21-1AB6-6FBD3BF07D68">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>TRAINEE01</sourceObjSchema>
+<sourceObjName>TRAIN_DATE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:42 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE--등록일자</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45D990BB-B795-41DD-C470-26FE56EC646F" name="TRAINEE01_NO_PK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>TRAINEE01_NO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:55 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F42527E8-89F1-39BF-B3EE-8CE32D8324F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5AB44D0-01E0-F048-B789-1C835A08C70A" schemaObject="1FF3C89D-7F25-A807-C7BC-1D559D7F4AE9" name="TRAINEE01_NO_PK">
+<sourceConnName>로컬-HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>TRAINEE01_NO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:54 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F42527E8-89F1-39BF-B3EE-8CE32D8324F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86DECDBE-3CE0-FC31-2B96-83BEBF8B4F00" name="TRAINEE01_LNUM_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:57 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96041D90-94A6-B108-ABCA-949ED86E1587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC07D28F-FA2F-2DC1-6574-6E6B350745B3" name="TRAINEE01_STUNUM_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 01:49:57 UTC</createdTime>
+<ownerDesignName>student1108</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="672E3708-DC13-2553-34A0-D5BBDD54A245"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7822DFDD-326D-DF80-47B6-F8C3D9A58E7F" name="STUDENT01">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:20:14 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no" id="A443FED1-BC05-01A8-4AD3-3E9D1A29A904">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:21:34 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stunum" id="87C590C4-4B7F-003A-4E40-17BE5257CA33">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:23:32 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="94E8C0D6-3192-7718-A905-6815D362825D">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:24:03 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="B76DE378-8E6D-A2A9-F9CC-0B5546920738">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:24:35 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pwd" id="C2BCD309-8EF8-0E11-3985-AA88B1BE6B45">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:24:53 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subnum" id="DCB811C5-C12D-9105-BF41-9155D7256B92">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:27:01 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80DFFDA3-A19E-311F-2BB4-432E4768AA81" referredColumn="3E394ED6-62F8-4EAC-05CF-AFEAD5A6C65F"/>
+</associations>
+</Column>
+<Column name="jumin" id="437B9414-5C02-010F-0422-57727CA8DD8F">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:27:27 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="E5E0B2BF-9206-4531-DB33-BADA335C8FAB">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:27:59 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="6F2D204C-063B-09B6-C46F-BE6B2D5FD911">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:28:20 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A407AC5B-6855-7EBF-AAE8-A596E870905D">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:28:44 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stu_date" id="716261A4-EFD2-03CA-D049-CDE697B94159">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:29:04 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0F8C439-E902-B9E4-EC08-B498D4EF05E5" name="STUDENT01_PK">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:23:32 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87C590C4-4B7F-003A-4E40-17BE5257CA33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A97487B-8348-5176-9751-B62E9FB67DCE" name="STUDENT01_SUBJECT01_subnum_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 02:32:55 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCB811C5-C12D-9105-BF41-9155D7256B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,327 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17372177-83E4-49C0-EDA2-888117A04443" schemaObject="E2F4AADF-A732-326E-9C83-85F89E373FBF" name="STUDENT">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>STUDENT</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:41 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>B9A702CE-893C-31D3-8F1B-65983C579947</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="1D8A7A8C-6F3C-A883-E8E7-57C0DB83B9E8">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:41 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>BC1D92D8-BBD2-0D7C-2D7B-E58BC2D9191C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="A81B41C2-6254-ACCD-721C-9C89D09A9AE0">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:41 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>5054394E-D336-858C-46C4-F623C89C834D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM" id="941DB961-79C6-FC4D-1274-5B256755D556">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>NUM</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:41 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>B03C2166-8F6A-E751-8314-605A7F5D062A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="267DFAFC-7D82-7426-6D09-28986B1BD334" referredColumn="983B9471-AF82-D669-C167-8666EFF4EC9F"/>
+</associations>
+</Column>
+<Column name="NAME" id="3244BCA2-238E-55F1-6437-C096962BE6AD">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:41 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>62203C88-1FDC-FF27-61F3-38B94A4D93AB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="304AC736-DA05-FBB8-FB82-3262A909DE23">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:41 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>AB09CA96-E0D4-168E-7C74-15BA9052481B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PWD" id="C703D158-9FB2-E54B-387C-7BC88287C39D">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>PWD</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>7B2F32F5-B506-34C6-0627-356FB954F5CF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBNUM" id="4D05DF12-5E49-2C46-2947-06A9CE4B115F">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>SUBNUM</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>0922C5CB-D949-7718-23D5-F85EF9CC68A1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JUMIN" id="08E88365-B910-1691-F487-CD96E81F08FA">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>JUMIN</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>00D0605A-1A95-EFCD-0958-EC7D88F360AF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="95EF27FE-5376-6CEA-4E9F-AD4D9A10E73C">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>34B54191-A8AF-DE7B-4C5E-36210FF490EE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="512D9BFE-0074-037F-3729-9DAC5A556B69">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>B5F6C2EC-7BEB-5D7E-E5B1-E6E1749B98FE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="934024DE-DC6D-D730-560D-8EFC6A4E4763">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>98180697-35D5-9654-8EB2-5EDBA3306688</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENROLL" id="8991DC4D-6624-5C66-5318-FFFB32101664">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>ENROLL</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>CAAAD8B3-EC41-2C25-F8BB-909E2E8CAD8F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE--등록일자</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A3B8E93B-4F10-3F36-4083-AFDF11A013CF" name="STUDENT_CODE_PK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>STUDENT_CODE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>BCABED80-EA96-5B62-4FC7-49C94C885F59</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A81B41C2-6254-ACCD-721C-9C89D09A9AE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37D5E0E6-2437-C96A-0AD8-DBDD14E1259F" name="STUDENT_EMAIL_UK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>STUDENT_EMAIL_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>4DFF9038-DECA-6F0A-FF32-B17C4D0FFCBC</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="934024DE-DC6D-D730-560D-8EFC6A4E4763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15C0BA65-8AB2-0896-5F8F-B390B07FEEE1" name="STUDENT_ID_UK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>STUDENT_ID_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>F33043CB-A36D-00D0-1A21-71442CAD5DBE</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="304AC736-DA05-FBB8-FB82-3262A909DE23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12403BDA-9674-8D2A-4BE3-3076D38B532F" name="STUDENT_JUMIN_UK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>STUDENT_JUMIN_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>3BA4F7F7-37B5-C31F-3EBA-F3F8A2C1531D</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E88365-B910-1691-F487-CD96E81F08FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34CAEF8C-269D-6285-0B5B-4C800F8BDF4D" schemaObject="E2F4AADF-A732-326E-9C83-85F89E373FBF" name="STUDENT_CODE_PK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>STUDENT_CODE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>8197682E-CCC6-18DC-2B3F-949A690C4E03</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A81B41C2-6254-ACCD-721C-9C89D09A9AE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE41CED3-8686-17A3-13B4-756DD07F2335" schemaObject="E2F4AADF-A732-326E-9C83-85F89E373FBF" name="STUDENT_EMAIL_UK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>STUDENT_EMAIL_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>682FD994-0384-7E24-A9AF-E16E4715F022</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="934024DE-DC6D-D730-560D-8EFC6A4E4763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA33C7F1-2E75-1016-2980-CE05EB0AF901" schemaObject="E2F4AADF-A732-326E-9C83-85F89E373FBF" name="STUDENT_ID_UK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>STUDENT_ID_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>4018B17A-807A-72E0-B1D1-FBF1CD7C56DA</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="304AC736-DA05-FBB8-FB82-3262A909DE23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF61E783-E8F2-F3EE-98D8-1007CC719EB4" schemaObject="E2F4AADF-A732-326E-9C83-85F89E373FBF" name="STUDENT_JUMIN_UK">
+<sourceConnName>로컬-STUDENTDB</sourceConnName>
+<sourceObjSchema>STUDENTDB</sourceObjSchema>
+<sourceObjName>STUDENT_JUMIN_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<importedID>37FD9142-1BBE-F7E8-7778-10DDE7E07836</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E88365-B910-1691-F487-CD96E81F08FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58623918-106C-EC03-ADD2-86E61DD6DD10" name="STUDENT_SUBNUM_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:42 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="941DB961-79C6-FC4D-1274-5B256755D556"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

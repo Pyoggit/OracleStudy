@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TRAINEE01" directorySegmentName="seg_0" id="394DDAC8-573E-6361-E5DE-8D6D034D85D5">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="section" id="44376290-5C64-1ABD-6061-0726D7CF2DFF">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="train_date" id="5E3F120E-A9BB-2370-3E28-3D33E3A47CB7">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stunum" id="AC140223-FBCD-5BA2-61E1-5E47D1348004">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="lnum" id="C20950D8-6873-5122-6CFD-062B3C675CFD">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no" id="D6D04856-D043-1435-D385-44FF4168FE41">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TRAINEE01_STUDENT01_stunum_FK" id="DA69FF69-4F15-4A31-55AF-BCD9027BD747">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRAINEE01_PK" id="27B39F6E-5E62-6FD6-25B8-0127235BE38F">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-08 05:00:30 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
