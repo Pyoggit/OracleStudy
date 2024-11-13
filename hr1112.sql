@@ -9,7 +9,7 @@ SELECT * FROM DEPARTMENTS WHERE DEPARTMENT_ID = 40;
 select * from employees E inner join departments D on E.department_id = D.department_id 
 WHERE UPPER(first_name) = UPPER('Susan');
 -- 단일행은 비교, 크기, 연산이 가능하다.
--- 다중행은 비교, 크기, 연산이 불가능하다.(IN=ON, ANY=AND, ALL=OR, EXISTS=존재하면 true,안하면 false)
+-- 다중행은 비교, 크기, 연산이 불가능하다.(IN=OR, ANY=OR(하나라도), ALL=AND(전체조건), EXISTS=존재하면 true,안하면 false)
 SELECT DEPARTMENT_ID FROM EMPLOYEES WHERE FIRST_NAME = 'Susan';
 -- 서브 쿼리
 SELECT * FROM DEPARTMENTS WHERE DEPARTMENT_ID = 
