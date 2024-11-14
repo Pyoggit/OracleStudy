@@ -139,10 +139,11 @@ WHERE ROWNUM  <= 4;
 --1. 사원 번호와 사원명과 부서명과 부서의 위치를 출력하는 뷰(VIEW_LOC)를 작성하라.
 CREATE VIEW VIEW_LOC 
 AS
-SELECT employee_id, first_name, department_name, location_id
-FROM EMPLOYEES,DEPARTMENTS;
+SELECT employee_id, first_name ||' '||last_name AS Name,E.department_id ,department_name, location_id
+FROM EMPLOYEES E INNER JOIN DEPARTMENTS D ON E.department_id = D.department_id;
 
 SELECT * FROM VIEW_LOC;
+DROP VIEW VIEW_LOC;
 
 --2. 30번 부서 소속 사원의 이름과 입사일과 부서명을 출력하는 뷰(VIEW_DEPT30)를 작성하라.
 CREATE VIEW VIEW_DEPT30
