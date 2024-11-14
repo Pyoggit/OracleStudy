@@ -135,3 +135,44 @@ SELECT ROWNUM, EMPLOYEE_ID, FIRST_NAME, HIRE_DATE FROM VIEW_HIREDATE WHERE ROWNU
 SELECT ROWNUM, EMPLOYEE_ID, FIRST_NAME, HIRE_DATE FROM 
 (SELECT EMPLOYEE_ID, FIRST_NAME, HIRE_DATE FROM EMPLOYEES ORDER BY HIRE_DATE DESC)
 WHERE ROWNUM  <= 4;
+
+--1. 사원 번호와 사원명과 부서명과 부서의 위치를 출력하는 뷰(VIEW_LOC)를 작성하라.
+CREATE VIEW VIEW_LOC 
+AS
+SELECT employee_id, first_name, department_name, location_id
+FROM EMPLOYEES,DEPARTMENTS;
+
+SELECT * FROM VIEW_LOC;
+
+--2. 30번 부서 소속 사원의 이름과 입사일과 부서명을 출력하는 뷰(VIEW_DEPT30)를 작성하라.
+CREATE VIEW VIEW_DEPT30
+AS
+SELECT first_name, hire_date, department_name
+FROM EMPLOYEES E, DEPARTMENTS
+WHERE E.department_id = 30;
+
+SELECT * FROM VIEW_DEPT30;
+
+--3. 부서별 최대 급여 정보를 가지는 뷰(VIEW_DEPT_MAXSAL)를 생성하라.
+CREATE VIEW VIEW_DEPT_MAXSAL 
+AS
+SELECT MAX(salary) AS MAX_SALARY
+FROM EMPLOYEES
+GROUP BY department_id;
+
+SELECT * FROM VIEW_DEPT_MAXSAL;
+
+--4. 급여를 많이 받는 순서대로 3명만 출력하는 뷰(VIEW_SAL_TOP3)와 인라인 뷰를 작성하라.
+CREATE VIEW VIEW_SAL_TOP3 
+AS
+SELECT first_name,salary
+FROM EMPLOYEES
+ORDER BY salary DESC;
+
+-- 인라인 뷰
+SELECT *
+FROM (
+    SELECT first_name, salary
+    FROM EMPLOYEES
+    ORDER BY salary DESC
+) WHERE ROWNUM <= 3;
