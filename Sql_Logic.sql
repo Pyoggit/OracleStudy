@@ -56,3 +56,9 @@ SELECT * FROM user_views;
 
 -- 모든 인덱스 보기
 SELECT * FROM user_indexes;
+
+-- 모든 시퀀스 보기
+SELECT * FROM user_sequences;
+
+-- 모든 프로시저 소스 보기
+SELECT * FROM user_source;
