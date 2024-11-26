@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="037830F7-C105-E6B0-409A-228969824865" containerWithKeyObject="CEDDE88B-9A9E-0F04-147B-E209EB7859C6" localFKIndex="90A1787F-3CD8-FB86-6CF6-0001CC5FA588" name="BUY_CUSTOMER_CODE_FK">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>PARCELDB</sourceObjSchema>
+<sourceObjName>BUY_CUSTOMER_CODE_FK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>2B0E1F21-1C2B-8D7F-252B-EB8C75266B09</importedID>
+<referredTableLongName>PARCELDB.CUSTOMER</referredTableLongName>
+<deleteRule>SET NULL</deleteRule>
+<referredTableID>5D54A007-6CD9-97AD-8402-63D51E1FDB37</referredTableID>
+<keyObject>AD104570-5630-FD7F-D9F1-23705F14C8C0</keyObject>
+<referredKeyID>AD104570-5630-FD7F-D9F1-23705F14C8C0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

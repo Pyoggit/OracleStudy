@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PRODUCT_TRG" directorySegmentName="seg_0" id="EFA906F2-4E45-1E33-B07D-7684CF1CDF11">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>PARCELDB</sourceObjSchema>
+<sourceObjName>PRODUCT_TRG</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:11:23 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+    :NEW.CODE := LPAD(PRODUCT_SEQ.NEXTVAL, 2, '0');
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>62D905B5-83E0-4F68-BE24-11E0A037462A</owner>
+<table>0E2D290A-A143-41F6-1EA4-9A7156D88E20</table>
+</TriggerOraclev10g>

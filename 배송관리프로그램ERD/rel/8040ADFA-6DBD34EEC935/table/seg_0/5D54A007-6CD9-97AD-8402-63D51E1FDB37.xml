@@ -1,0 +1,202 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D54A007-6CD9-97AD-8402-63D51E1FDB37" schemaObject="AF170888-748D-6279-C348-C44D8402DA6D" name="CUSTOMER">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>PARCELDB</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>B2FE9E4D-3739-B4C2-6AC9-4661EDDAF98E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODE" id="4E78531F-80DA-BC97-6103-9B17C131DDC3">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>D7F50C7E-6569-7938-6F2B-71401E0C98B6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="AA5D0DED-E4E9-EAFF-2A95-4C3181116A3E">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>6AA65701-725D-ED85-BE86-BBA60FD66B78</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PWD" id="2365570B-CEDB-8F68-515F-36FCDD5E1775">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>PWD</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>B09A0463-E23B-0BDD-C72D-5F0FE3B70C8B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="5337A16B-8E33-33F1-8187-92786D0BF74A">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>412633D3-0C3D-CDBB-4AC3-976E16F6A74C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="2C7DE94B-B5C0-029C-7CD6-346876ACCC14">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>0E7CAC95-01BA-5139-8E4A-330DCCDD9B9F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="A2BC9D57-1A4A-417E-0724-09028B32CEB3">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>B9271B24-4312-20FF-F0B3-D5D3A7BFB10D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CDATE" id="4449D8AF-9A32-3513-017F-288C55B0DFD8">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CDATE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>A04A2CF5-F697-8B99-C4C9-CFF6923A94E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD104570-5630-FD7F-D9F1-23705F14C8C0" name="CUSTOMER_CODE_PK">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>PARCELDB</sourceObjSchema>
+<sourceObjName>CUSTOMER_CODE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>ADBB8EA0-A197-7026-5F06-4BEC1DD92645</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E78531F-80DA-BC97-6103-9B17C131DDC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF322FE6-5A3A-F0B5-F1CD-1DF6401244CE" name="CUSTOMER_ID_UK">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>PARCELDB</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>FDAB4119-6743-69E9-772C-4AC867CFF9A3</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA5D0DED-E4E9-EAFF-2A95-4C3181116A3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07A6FDE3-1756-6847-BAA9-B21AC4A324B9" name="CUSTOMER_PHONE_UK">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>PARCELDB</sourceObjSchema>
+<sourceObjName>CUSTOMER_PHONE_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>385C73F8-F7D9-DABB-5368-1DD6628AF8DE</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2BC9D57-1A4A-417E-0724-09028B32CEB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31E532BE-8C02-D113-C3C7-532C80877601" schemaObject="AF170888-748D-6279-C348-C44D8402DA6D" name="CUSTOMER_CODE_PK">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>PARCELDB</sourceObjSchema>
+<sourceObjName>CUSTOMER_CODE_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>91994651-13EF-E2F9-897B-FC959DAD56A3</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E78531F-80DA-BC97-6103-9B17C131DDC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1EC9845-A9B6-CE7D-081E-761CF30D3D77" schemaObject="AF170888-748D-6279-C348-C44D8402DA6D" name="CUSTOMER_ID_UK">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>PARCELDB</sourceObjSchema>
+<sourceObjName>CUSTOMER_ID_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>864081D6-03CF-3487-0882-BA6267856AD1</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA5D0DED-E4E9-EAFF-2A95-4C3181116A3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39136862-FDC8-8081-29C0-C41F411A6BB3" schemaObject="AF170888-748D-6279-C348-C44D8402DA6D" name="CUSTOMER_PHONE_UK">
+<sourceConnName>로컬-PARCELDB</sourceConnName>
+<sourceObjSchema>PARCELDB</sourceObjSchema>
+<sourceObjName>CUSTOMER_PHONE_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>07F4EC5A-A878-E396-78E4-CAEB1C21545F</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2BC9D57-1A4A-417E-0724-09028B32CEB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="LESSON" directorySegmentName="seg_0" id="B56E86FA-1FB5-C1DF-BCEF-0AC16B6190CA">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:37 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>DCDC596F-7C0C-16EE-1BB0-0CD75EE06131</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E0F4FF19-7C94-9815-810B-3BB622223D72</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="15B6A215-E8E6-C027-9AF4-DAA7FEB2EE0F">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="A05F498F-B441-7A18-9B5D-C4B63F5DDC71">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ABBRE" id="A20CCBFC-8595-D003-D0FB-E71974B0495F">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LESSON_ABBRE_UK" id="21CE24A2-F016-7C1C-2A32-9F3DCA90249E">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:39 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>DCDC596F-7C0C-16EE-1BB0-0CD75EE06131</schemaObject>
+<segment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LESSON_NO_PK" id="DE8F20FB-B7D1-F3A5-15C3-E896C96260FF">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:39 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>DCDC596F-7C0C-16EE-1BB0-0CD75EE06131</schemaObject>
+<segment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LESSON_NO_PK" id="85AE27B8-016E-876D-2BCE-2D290630F0BB">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:40 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<segment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+<existingIndex>DE8F20FB-B7D1-F3A5-15C3-E896C96260FF</existingIndex>
+<indexSegment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="LESSON_ABBRE_UK" id="B819A20B-F5CE-2DC7-4D5F-22549FE70CCF">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:40 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<segment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+<existingIndex>21CE24A2-F016-7C1C-2A32-9F3DCA90249E</existingIndex>
+<indexSegment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

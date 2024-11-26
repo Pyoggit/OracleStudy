@@ -1,0 +1,252 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="138444E9-4406-A39B-1B71-3D1970778820" schemaObject="DCDC596F-7C0C-16EE-1BB0-0CD75EE06131" name="STUDENT">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>STUDENT</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:36 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="34DA5C3F-E64C-31BD-2634-568C67064D2B">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM" id="7C99EBAF-64D5-CE53-F5F7-BD41C6E3CB96">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>NUM</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="C013AB1D-5C47-6BF3-3017-429A5C4C8761">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID" id="EA9C4448-CC8C-DF6D-13B9-01BA2453B2AA">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWD" id="3C99DD68-3BDB-819E-5C9A-7F05BF6EAB27">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>PASSWD</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>12 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S_NUM" id="24376CE3-9E1A-162C-8801-8E6BC0757B3F">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>S_NUM</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C3C8AD7-8D98-3D5B-000E-AC47747DE9A9" referredColumn="D6A86AC4-3799-12F1-C939-F0D5A56EAF56"/>
+</associations>
+</Column>
+<Column name="BIRTHDAY" id="A280FF26-1BC6-103D-445C-98485D76EA61">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>BIRTHDAY</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="B0C227E8-6FAB-5BD0-1C8B-504CEED59FAB">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="E742A9CA-CDC5-2331-B196-E73A79174C92">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="F674788A-C322-F82F-84DA-8FA4E110FAE9">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SDATE" id="625FBFCE-4A71-B8F6-A7F7-0FF939B39290">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>STUDENT</sourceObjSchema>
+<sourceObjName>SDATE</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE--등록일</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13130C26-EA32-C563-7A52-71D53F02468D" name="STUDENT_NO_PK">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>STUDENT_NO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:40 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34DA5C3F-E64C-31BD-2634-568C67064D2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A55BDB14-FCE3-AEB1-DF30-9D048EED05AB" name="STUDENT_ID_UK">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>STUDENT_ID_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:40 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9C4448-CC8C-DF6D-13B9-01BA2453B2AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDEB7069-2F1B-7D32-C96C-2BA94B02E569" name="STUDENT_NUM_UK">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>STUDENT_NUM_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:40 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C99EBAF-64D5-CE53-F5F7-BD41C6E3CB96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E7E0D43-544B-167C-AFB2-10AB089E5F97" schemaObject="DCDC596F-7C0C-16EE-1BB0-0CD75EE06131" name="STUDENT_ID_UK">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>STUDENT_ID_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:39 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9C4448-CC8C-DF6D-13B9-01BA2453B2AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FA0A9C3-9232-5E8C-667A-716E152042DB" schemaObject="DCDC596F-7C0C-16EE-1BB0-0CD75EE06131" name="STUDENT_NO_PK">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>STUDENT_NO_PK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:39 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34DA5C3F-E64C-31BD-2634-568C67064D2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0952F40-0065-3E45-89AD-27594CADF308" schemaObject="DCDC596F-7C0C-16EE-1BB0-0CD75EE06131" name="STUDENT_NUM_UK">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>STUDENT_NUM_UK</sourceObjName>
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:39 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C99EBAF-64D5-CE53-F5F7-BD41C6E3CB96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C67C1A4-D4AC-A8AC-CBC1-114A89548BBD" name="STUDENT_SUBJECT_NUM_FK">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:42 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24376CE3-9E1A-162C-8801-8E6BC0757B3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

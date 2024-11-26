@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BUY" directorySegmentName="seg_0" id="CEDDE88B-9A9E-0F04-147B-E209EB7859C6">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>AF170888-748D-6279-C348-C44D8402DA6D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>91512F90-BD8F-883F-A171-44BE4357A0D1</segment>
+<tableSpace>68CEB3CA-CCBC-DF98-81A7-53127FD6CF5B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODE" id="34789D95-D6FE-FCF0-E1EE-FDB1F0B69A42">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUST_CODE" id="4DB23AD1-3235-D15E-6FB9-AE659E8B013C">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_CODE" id="7143484B-70C5-C4E1-BFD5-5C84966E57F5">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COP_CODE" id="83077237-9DA7-E78E-779F-2427C0D7C3DA">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOTAL" id="C1FC6C8F-26C2-664B-B21E-56A754BD2DA5">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT" id="D36B12C9-466D-1BC0-C7F3-98F03551E0C2">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="BUY_CODE_PK" id="F0E267DB-9D89-74A8-2F9A-475D459F90D9">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>AF170888-748D-6279-C348-C44D8402DA6D</schemaObject>
+<segment>C6E70686-E4B8-8084-61D1-AC28489043A7</segment>
+<tableSpace>68CEB3CA-CCBC-DF98-81A7-53127FD6CF5B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUY_CUSTOMER_CODE_FK" id="90A1787F-3CD8-FB86-6CF6-0001CC5FA588">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUY_COMPANY_CODE_FK" id="91945BAC-CF6B-ADAB-BBB2-A92CB153B89E">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUY_PRODUCT_CODE_FK" id="EC5315E2-214E-1CF5-3E84-EB057B4DA326">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUY_CODE_PK" id="913487D0-C845-2764-5E3E-0EF4132D3D6F">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<segment>C6E70686-E4B8-8084-61D1-AC28489043A7</segment>
+<tableSpace>68CEB3CA-CCBC-DF98-81A7-53127FD6CF5B</tableSpace>
+<existingIndex>F0E267DB-9D89-74A8-2F9A-475D459F90D9</existingIndex>
+<indexSegment>C6E70686-E4B8-8084-61D1-AC28489043A7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

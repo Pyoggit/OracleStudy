@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="SUBJECT" directorySegmentName="seg_0" id="4D478E65-D743-7C43-1664-E229F168C287">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:37 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>DCDC596F-7C0C-16EE-1BB0-0CD75EE06131</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E0F4FF19-7C94-9815-810B-3BB622223D72</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="33FC9105-D4ED-D5D6-82E1-F266C1058D25">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM" id="D6A86AC4-3799-12F1-C939-F0D5A56EAF56">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="E6585789-E331-1D71-8969-E1DBB84BEC68">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:38 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SUBJECT_NO_PK" id="0386DA13-AE58-2D2C-CF88-6BB7823A34CB">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:39 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>DCDC596F-7C0C-16EE-1BB0-0CD75EE06131</schemaObject>
+<segment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SUBJECT_NUM_UK" id="9CBE0AEB-1615-5B6E-2E10-BAF9E15385DC">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:39 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>DCDC596F-7C0C-16EE-1BB0-0CD75EE06131</schemaObject>
+<segment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUBJECT_NO_PK" id="F7F44A2A-598C-7F78-CDFE-BB645CCCC0CE">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:40 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<segment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+<existingIndex>0386DA13-AE58-2D2C-CF88-6BB7823A34CB</existingIndex>
+<indexSegment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="SUBJECT_NUM_UK" id="775ADFB7-69DE-C17A-9237-468AAFA9040B">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-22 03:50:40 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<segment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</segment>
+<tableSpace>8DEE6257-90C7-A31F-3FF7-DFD780B46B67</tableSpace>
+<existingIndex>9CBE0AEB-1615-5B6E-2E10-BAF9E15385DC</existingIndex>
+<indexSegment>6E6184DB-A4E6-92D4-03B8-844FD4B04F51</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

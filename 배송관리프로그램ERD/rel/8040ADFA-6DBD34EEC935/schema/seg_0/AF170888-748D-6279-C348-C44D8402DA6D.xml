@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="PARCELDB" directorySegmentName="seg_0" id="AF170888-748D-6279-C348-C44D8402DA6D">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<importedID>0382566B-E79A-D09D-1A53-6922CC977101</importedID>
+</SchemaObject>

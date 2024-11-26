@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PRODUCT" directorySegmentName="seg_0" id="0E2D290A-A143-41F6-1EA4-9A7156D88E20">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>AF170888-748D-6279-C348-C44D8402DA6D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>91512F90-BD8F-883F-A171-44BE4357A0D1</segment>
+<tableSpace>68CEB3CA-CCBC-DF98-81A7-53127FD6CF5B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REMAIN" id="706C6014-AC84-42C1-C13A-9F9444F319EC">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="97A2E9EB-1C1A-7A3B-B6AB-761438578B46">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="BEB5D5A1-6B36-F00E-22CE-374DBD439F6C">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="D403AA7E-C31B-2D3F-AD44-2581754D2095">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCT_CODE_PK" id="28A1D00E-73CC-C17F-E89F-39AACE3272FA">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>AF170888-748D-6279-C348-C44D8402DA6D</schemaObject>
+<segment>C6E70686-E4B8-8084-61D1-AC28489043A7</segment>
+<tableSpace>68CEB3CA-CCBC-DF98-81A7-53127FD6CF5B</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRODUCT_NAME_UK" id="F5F335A8-908A-65AB-58D1-B151930DC77F">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<schemaObject>AF170888-748D-6279-C348-C44D8402DA6D</schemaObject>
+<segment>C6E70686-E4B8-8084-61D1-AC28489043A7</segment>
+<tableSpace>68CEB3CA-CCBC-DF98-81A7-53127FD6CF5B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCT_CODE_PK" id="46F79160-FEA3-C5DE-A2FD-D6D114F6B8F7">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<segment>C6E70686-E4B8-8084-61D1-AC28489043A7</segment>
+<tableSpace>68CEB3CA-CCBC-DF98-81A7-53127FD6CF5B</tableSpace>
+<existingIndex>28A1D00E-73CC-C17F-E89F-39AACE3272FA</existingIndex>
+<indexSegment>C6E70686-E4B8-8084-61D1-AC28489043A7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PRODUCT_NAME_UK" id="9476B248-FA0E-1CA7-D766-28D089E075B9">
+<createdBy>USER</createdBy>
+<createdTime>2024-11-26 00:12:59 UTC</createdTime>
+<ownerDesignName>배송관리프로그램ERD</ownerDesignName>
+<segment>C6E70686-E4B8-8084-61D1-AC28489043A7</segment>
+<tableSpace>68CEB3CA-CCBC-DF98-81A7-53127FD6CF5B</tableSpace>
+<existingIndex>F5F335A8-908A-65AB-58D1-B151930DC77F</existingIndex>
+<indexSegment>C6E70686-E4B8-8084-61D1-AC28489043A7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>
