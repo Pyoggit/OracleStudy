@@ -62,15 +62,23 @@ SELECT * FROM MEMBER;
 
 SELECT * FROM INTEREST;
 
+-- jsp 회원가입 테이블
 CREATE TABLE SIGNUP (
-    ID VARCHAR(12),
-    PASSWORD VARCHAR(12) NOT NULL,
-    EMAIL VARCHAR(50) NOT NULL,
-    NAME VARCHAR(50) NOT NULL
+    ID VARCHAR2(12) ,                         -- 아이디 (4~12자의 영문 대소문자와 숫자)
+    PWD VARCHAR2(12) NOT NULL,                -- 비밀번호 (4~12자의 영문 대소문자와 숫자)
+    EMAIL VARCHAR2(100) NOT NULL,             -- 이메일 주소
+    NAME VARCHAR2(50) NOT NULL,               -- 이름
+    BIRTH NUMBER(10)                          -- 생년월일 (20001010)
 );
 
 ALTER TABLE SIGNUP ADD CONSTRAINT SIGNUP_ID_PK PRIMARY KEY(ID);
 
+-- jsp로그인테이블
+CREATE TABLE LOGIN2(
+    ID VARCHAR2(12),
+    PWD VARCHAR2(12) NOT NULL
+);
+ALTER TABLE LOGIN2 ADD CONSTRAINT LOGIN2_ID_PK PRIMARY KEY(ID);
 --------------------------------------------------------------------------
 -- 로그인테이블
 CREATE TABLE LOGIN(
@@ -90,5 +98,10 @@ CREATE TABLE REGISTER(
 );
 
 ALTER TABLE REGISTER ADD CONSTRAINT REGISTER_ID_PK PRIMARY KEY(ID);
+
+
+SELECT * FROM SIGNUP;
+SELECT * FROM LOGIN2;
+SELECT * FROM LOGIN2 WHERE ID = ? AND PWD = ?;
 
 
